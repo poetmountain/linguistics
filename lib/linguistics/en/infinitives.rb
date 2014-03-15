@@ -770,6 +770,13 @@ module Linguistics::EN::Infinitives
 			:suffix1	=> 'el',
 			:suffix2	=> '',
 		},
+		'lling' => {
+			:order		=> 1149,
+			:rule		=> '12c',
+			:word1		=> -1,	# Shortest prefix.
+			:suffix1	=> 'll',
+			:suffix2	=> '',
+		},
 		'ling' => {
 			:order		=> 1150,
 			:rule		=> '12c',
