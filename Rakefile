@@ -32,13 +32,10 @@ hoespec = Hoe.spec 'linguistics' do |spec|
 
 	spec.developer 'Michael Granger', 'ged@FaerieMUD.org'
 
-	spec.dependency 'loggability', '~> 0.7'
+	spec.dependency 'loggability', '~> 0.10.0'
 
 	spec.dependency 'hoe-deveiate', '~> 0.3', :development
 	spec.dependency 'hoe-bundler', '~> 1.2', :development
-	spec.dependency 'linkparser', '~> 1.1', :development
-	spec.dependency 'wordnet', '~> 1.0', :development
-	spec.dependency 'wordnet-defaultdb', '~> 1.0', :development
 	spec.dependency 'ruby-stemmer', '~> 0.9', :development
 
 	spec.spec_extras[:rdoc_options] = ['-f', 'fivefish', '-t', 'Ruby Linguistics Toolkit']
