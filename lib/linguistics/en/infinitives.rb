@@ -665,6 +665,48 @@ module Linguistics::EN::Infinitives
 			:suffix1	=> '',
 			:suffix2	=> '',
 		},
+		'eled' => {
+			:order		=> 1112,
+			:rule		=> '12c',
+			:word1		=> -1,	# Shortest prefix.
+			:suffix1	=> 'el',
+			:suffix2	=> '',
+		},
+		'led' => {
+			:order		=> 1113,
+			:rule		=> '12c',
+			:word1		=> -1,	# Shortest prefix.
+			:suffix1	=> 'le',
+			:suffix2	=> '',
+		},
+		'red' => {
+			:order		=> 1114,
+			:rule		=> '12c',
+			:word1		=> -2,	# Shortest prefix.
+			:suffix1	=> 'r',
+			:suffix2	=> '',
+		},
+		'lded' => {
+			:order		=> 1115,
+			:rule		=> '12c',
+			:word1		=> -2,	# Shortest prefix.
+			:suffix1	=> 'ld',
+			:suffix2	=> '',
+		},
+		'bed' => {
+			:order		=> 1116,
+			:rule		=> '12c',
+			:word1		=> -2,	# Shortest prefix.
+			:suffix1	=> 'b',
+			:suffix2	=> '',
+		},
+		'hed' => {
+			:order		=> 1117,
+			:rule		=> '12c',
+			:word1		=> -2,	# Shortest prefix.
+			:suffix1	=> 'h',
+			:suffix2	=> '',
+		},
 		'ied' => {
 			:order		=> 1121,
 			:rule		=> '12a',
@@ -719,6 +761,27 @@ module Linguistics::EN::Infinitives
 			:rule		=> '24',
 			:word1		=> -1,	# Shortest prefix.
 			:suffix1	=> 'logy',
+			:suffix2	=> '',
+		},
+		'eling' => {
+			:order		=> 1149,
+			:rule		=> '12c',
+			:word1		=> -1,	# Shortest prefix.
+			:suffix1	=> 'el',
+			:suffix2	=> '',
+		},
+		'ling' => {
+			:order		=> 1150,
+			:rule		=> '12c',
+			:word1		=> -2,	# Shortest prefix.
+			:suffix1	=> 'le',
+			:suffix2	=> '',
+		},
+		'ring' => {
+			:order		=> 1150,
+			:rule		=> '12c',
+			:word1		=> -2,	# Shortest prefix.
+			:suffix1	=> 'r',
 			:suffix2	=> '',
 		},
 		'ing' => {
@@ -1120,6 +1183,7 @@ module Linguistics::EN::Infinitives
 						word1 = $1 + $2
 						word2 = $1 + $2 + $2
 					end
+
 				end
 			end
 		end
