@@ -707,6 +707,13 @@ module Linguistics::EN::Infinitives
 			:suffix1	=> 'h',
 			:suffix2	=> '',
 		},
+		'ted' => {
+			:order		=> 1118,
+			:rule		=> '12c',
+			:word1		=> -1,	# Shortest prefix.
+			:suffix1	=> 't',
+			:suffix2	=> '',
+		},
 		'ied' => {
 			:order		=> 1121,
 			:rule		=> '12a',
@@ -789,6 +796,13 @@ module Linguistics::EN::Infinitives
 			:rule		=> '12c',
 			:word1		=> -2,	# Shortest prefix.
 			:suffix1	=> 'r',
+			:suffix2	=> '',
+		},
+		'ying' => {
+			:order		=> 1150,
+			:rule		=> '12c',
+			:word1		=> -1,	# Shortest prefix.
+			:suffix1	=> 'y',
 			:suffix2	=> '',
 		},
 		'ing' => {
