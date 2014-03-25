@@ -693,6 +693,13 @@ module Linguistics::EN::Infinitives
 			:suffix1	=> 'ld',
 			:suffix2	=> '',
 		},
+		'lled' => {
+			:order		=> 1115,
+			:rule		=> '12c',
+			:word1		=> -2,	# Shortest prefix.
+			:suffix1	=> 'll',
+			:suffix2	=> '',
+		},
 		'bed' => {
 			:order		=> 1116,
 			:rule		=> '12c',
