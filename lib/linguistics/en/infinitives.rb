@@ -805,6 +805,13 @@ module Linguistics::EN::Infinitives
 			:suffix1	=> 'r',
 			:suffix2	=> '',
 		},
+		'ssing' => {
+			:order		=> 1150,
+			:rule		=> '12c',
+			:word1		=> -1,	# Shortest prefix.
+			:suffix1	=> 'ss',
+			:suffix2	=> '',
+		},
 		'ying' => {
 			:order		=> 1150,
 			:rule		=> '12c',
